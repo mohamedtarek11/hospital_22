@@ -1,0 +1,673 @@
+.register{
+   height:657px;
+   width:100%; 
+    background-size: cover;
+    background-image: url("../images/img2.jpg");
+   position: relative;
+}
+.register .user-data{
+    width: 300px !important;
+    height:600px !important;
+    border:1px solid navy;
+    position: absolute;
+    top:30px;
+    background:linear-gradient(120deg, violet,navy) ;
+    border-radius: 20px;
+    box-shadow: 2px 2px 13px 8px black;
+    overflow: hidden;
+}
+
+.logo img{
+    width: 275px;
+    border-radius: 31px;
+    margin-top: 10px;
+    margin-left:10px;
+}
+.inp{
+
+    width: 100%;
+    padding: 0 10px ;
+    background:none;
+ border:none;  
+ outline: none;
+  /* border-bottom-width: .1px ;  */
+ color:white !important;
+ margin-top: 20px;
+ font-size: 20px;
+}
+.inpinp:after, .inpinp2:after, .inpinp3::after, .form-phone::after{
+    content:"";
+    display:block;
+    background-color: rgba(0, 0, 139, 0.247);
+    height: .5px;
+    /* position: relative; */
+}
+.inpinp2{
+    position: relative;
+}
+.inpinp2 #user{
+    position: absolute;
+     top:28px;
+     right:11px;
+     color:grey;
+}
+.register-form .upload{
+    position:relative;
+    background:rgba(0, 128, 0, 0.021);
+    margin-top: 20px;
+    height:41px;
+    position: relative;
+    cursor: pointer;
+
+}
+.upload .opop{
+    position: absolute;
+    top:0px;
+    left:0px;
+    opacity: 0;
+    z-index: 3;
+    cursor: pointer;
+
+}
+.up-text{
+    position:absolute;
+    top:10px;
+    left:10px;
+    cursor: pointer;
+}
+.icon{
+    position: absolute;
+    top:18px;
+    right:12px;
+    cursor: pointer;
+    color:grey;
+
+}
+.inpinp{
+    position:relative
+}
+.icon2{
+    position: absolute;
+    top:22px;
+    right:10px;
+    font-size: 20px;
+    color:grey
+}
+.inpinp3{
+    position: relative;
+}
+.icon3{
+    position: absolute;
+    top:26px;
+    right: 13px;
+    color:grey;
+}
+.error-mgs{
+    background-color: rgba(255, 0, 0, 0.521);
+font-weight: bold;
+    font-size: 23px;
+    position: absolute;
+    width: 300px;
+    height: 130px;
+    top: 598px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 44px 0;
+}
+/* ============================================================== */
+/* ============================================================== */
+/* ============================================================== */
+/* ============================================================== */
+/* ============================================================== */
+/* =============================hospital page================================= */
+.nav{
+    background-color:black;
+}
+.navul{
+    color:white !important;
+    font-size: 20px; 
+}
+.navimg{
+    background-color:black;
+    
+}
+.prog{
+    width: 0px;
+    height: 10px;
+    background-color:rgb(0, 0, 128);
+}
+.sectionimg{
+    background-image: url("../images/doctor1.jpg");
+    height: 509px;
+    background-size:cover;
+    /* position: relative; */
+    /* width:1364px; */
+}
+.sectionimg .section-text{
+    position: absolute;
+     width: 550px;
+    text-align: center;
+    top:140px;
+display: none;
+}
+.sectionimg .section-text .section-texth{
+    color:gray
+}
+.sectionimg .section-text .section-textp{
+    font-size: 30px;
+    color:black
+}
+.sectionimg .section-text .fram{
+    
+    width: 25px;
+    height: 49px;
+    border: 1px solid darkblue;
+    /* display: block; */
+    text-align: center;
+    background: none;
+    border-radius: 20px;
+    position: relative;
+}
+.sectionimg .section-text .fram span{
+    width: 7px;
+    height: 10px;
+    border:1px solid rgb(128, 0, 107);
+    background-color:blue; ;
+    display: block;
+    position: absolute;
+    top:0px;
+    right:8px;
+    animation-name: change;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes change{
+from{top:0px}
+to{ top:35px}
+}
+.sectionimg .section-text .btns1{
+background:linear-gradient(120deg,purple,blue) ;
+font-size: 20px;
+}
+.sectionimg .section-text .btns2{
+  background:linear-gradient(120deg, blue,navy) ;
+  font-size: 20px;
+}
+.setting{
+    position: fixed;
+    width:200px;
+    top: 0px;
+    left:-200px;
+    height: 655px;
+    z-index: 10000;
+    font-size: 20px;
+    background: black;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+/* ======================================= */
+.randommm{
+    background-color:whitesmoke;
+    height: 85px;
+}
+.randommm .yes{
+    background-color: black;
+    display:inline-block;
+    width: 42px;
+    border-radius: 5px;
+    padding: 4px 4px ;
+    opacity: .5;
+    line-height: 15px;
+    color: white;
+    cursor: pointer;
+
+}
+.randommm .no{
+    background-color: black;
+    display:inline-block;
+    width: 42px;
+    border-radius: 5px;
+    padding: 4px 4px ;
+    opacity: .5;
+    line-height: 15px;
+    color: white;
+    cursor: pointer;
+}
+.randommm  .random-back span.active{
+    opacity: 1;
+}
+
+
+/* =========================================== */
+
+.setting .setting-icon{
+    position: absolute;
+    top:136px;
+    right: -25px;
+    border: 1px solid rgb(255, 217, 0);
+    background-color: white;
+}
+.setting .setting-text{
+    color:gray
+}
+/* ================================================================== */
+/* ================================section2============================= */
+/* ================================================================== */
+.pppp{
+    width: 100%;
+    height: 220px;
+    border: .5px solid white;
+    padding: 10px 10px;
+    box-sizing: border-box;
+     background-color:white; 
+    position: relative;
+     top:-19px ;
+    box-shadow: 10px 10px 10px  ;
+    text-align: center;
+}
+.pppp::after{
+    content: "";
+    width: 0%;
+    height:100%;
+    display: block;
+    background-color:#333;
+    position: absolute;
+     top:0px; 
+     left:0px; 
+      /* z-index: -1;   */
+}
+.pppp:hover{
+    top: 0px ;
+    transition: .5s;
+}
+.pppp:hover::after{
+     background-color:rgba(51, 51, 51, 0.192); 
+    width: 100%;
+    transition: .5s;
+}
+
+
+.section2inf #section2-icon {
+    color:blue;
+    font-size: 30px;
+}
+#section2-icon2{
+    color:blue;
+    font-size: 30px;
+}
+ @media(max-width:767px){
+    .pppp{
+        margin-top: 3px;
+        margin-bottom: 10px;
+
+    }
+} 
+#section2-icon3{
+    color:blue;
+    font-size: 30px;
+}
+
+.bublic{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 21px;
+    color:navy
+}
+.bublic::after{
+    content: "";
+    height: 4px;
+    /* display: block; */
+    background-color: violet;
+    width: 75px;
+    position: relative;
+    top: 32px;
+    right: 85px;
+
+}
+.section3 .row .section3-img{
+    position: absolute;
+    top: 8px;
+    width: 209px;
+}
+.section3-img2{
+    position: absolute;
+    width: 200px;
+    top: 222px;
+}
+#section3-icon{
+    color:blue;
+    font-size: 30px;
+}
+
+@media(min-width:1200px){
+    .section3 {
+        position: relative;
+              height: 580px;   
+            overflow: hidden;
+        }
+}
+.section3-hidden{
+    overflow: hidden;
+}
+ .row .section3-right{ 
+    
+    position: absolute;
+    right:-557px;
+transition: 1s;
+ }  
+ 
+.row .section3-left{
+    position: absolute;
+    left:-480px;
+transition: 1s;
+
+} 
+.imgcard{  
+    position: absolute;
+    top: 10px;
+    top: -58px;
+    border-radius: 50%;
+    z-index: -1;
+    right: 323px;
+}
+
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    float: left;
+    text-align: center;
+    padding-top: 23px;
+    background-color:rgba(128, 128, 128, 0.842);
+    margin-right: 10px;
+   
+}
+.circle .circle-icon{
+font-size: 35px;
+transition: .5s;
+color: rgb(230, 242, 253);
+
+}
+.circle .circle-icon:hover{
+transform:rotate(360deg);
+color:maroon;
+}
+.section4over{
+    position: relative;
+     overflow: hidden; 
+}
+
+
+/* @media(min-width:1200px){
+    .section4over {
+        
+               height: 100px;    
+        
+        }
+} */
+
+@media(max-width:767px){
+    .section4over{    
+        height: 840px; 
+    }
+   
+}
+
+
+
+
+ @media(min-width:768px){
+    .section4over{
+        height: 610px;
+    }  
+} 
+
+@media(min-width:991px){
+    .section4over{    
+        height: 475px; 
+    }
+}
+
+.section4pos1{
+    position: absolute;
+    left:1222px;
+    transition: 3s;
+}
+ .section4pos2{
+    position: absolute;
+   right: 1222px;
+   transition: 3s;
+} 
+.section4-fade{
+    position: absolute;
+    left:1222px;
+    transition: 4s;
+}
+/* ============================================================== */
+/* =======================price======================================= */
+/* ============================================================== */
+/* ============================================================== */
+/* ============================================================== */
+
+
+
+.price{
+    height: 470px;
+    border:1px solid navy;
+    margin-bottom: 10px;
+    background-color: rgba(245, 245, 245, 0.753)
+}
+.price:hover{
+    box-shadow: 10px 10px 10px black;
+}
+.price .money{
+text-align: center;
+    margin: 0px auto;
+    height:10px;
+   
+    
+}
+.header{
+    width: 80%;
+    height: 100px;
+    margin: 0px auto;
+    background-color: rgba(0, 162, 255, 0.623);
+}
+.header .money .moneyh{
+    color:rgb(255, 255, 255);
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.header .money .moneyp{
+    font-size: 20px;
+}
+.price .option .option1{
+text-align: center;
+margin: 10px;
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color:gray;
+}
+.option .option2 .option2-icon{
+    float: left;
+    width: 14%;
+    margin-left: 10px;
+    font-size: 25px;
+    color: green;
+
+}
+.option .option2{
+    margin-top: 15px;
+    border-bottom-width: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color:rgb(128, 128, 128, 0.795);
+}
+.option-button{
+    text-align: center;
+    margin-top: 20px;
+}
+#btnarr{
+    position: fixed;
+    color: green;
+    top: 470px;
+    right: 28px;
+     display: none;  
+}
+/* =============================================== */
+/* ===================class=active============================ */
+/* =============================================== */
+.active{
+    
+    background-color: green;
+}
+/* =============================================== */
+/* =============================================== */
+/* =============================================== */
+.imaagees{
+display:block;
+
+}
+.ddd{
+    height: auto;
+}
+.mediaimg{
+     width: 100px; 
+    /* height:100px; */
+border-radius: 50%;
+border: 3px solid blue;
+float: left;
+height: 100%;
+margin-right: 10px;
+
+}
+.mediaimg:hover{
+    border: none;
+    padding:10px;
+}
+.media-icon{
+    font-size: 30px;
+    cursor: pointer;
+}
+.media-icon i:hover{
+    color:blue;
+}
+.mediap{
+    color:gray
+}
+.seth,.seth1,.seth3,.seth2{
+    display: none;
+}
+
+
+
+.ddd{
+    height: 700px;
+} 
+
+/* ========================================================== */
+ @media(max-width:767px){
+    .ddd{
+         height: auto; 
+        margin-bottom: auto 0px;
+    }
+}
+ @media(min-width:768px){ 
+    .ddd{ 
+         height:auto;  
+       margin-bottom: auto 0px;
+     } 
+    }
+
+ @media(min-width:991px){
+    .ddd{
+           height: auto; 
+       margin-bottom: auto 0px;
+    } 
+}  
+
+/* ================================================================= */
+   
+.chutimg{
+    height: 200px;
+}
+  
+
+.cards{
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    top: 0px;
+}
+.ca{
+     position: absolute;  
+}
+#ourblog{
+    height: 600px;
+}
+
+/* =========================================================================== */
+/* =========================================================================== */
+/* =========================================================================== */
+/* =========================================================================== */
+ .final{
+height: 700px;
+} 
+
+
+
+.option2-texticon{
+    float: left;
+    color:green;
+    font-size: 25px;
+}
+.option2-textf{
+    font-size: 20px;
+    color:gray
+}
+/* ===================================================== */
+/* ===================================================== */
+/* ==================popup=================================== */
+/* ===================================================== */
+/* ===================================================== */
+.popup{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    background-color: rgba(0,0,0,.4);
+    z-index: 2000;
+    display: none;
+    
+}
+.popo-content{
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10%;
+    margin: 40px auto;
+    overflow: hidden;
+}
+ul li span{
+    background-color:maroon;
+    cursor: pointer;
+    display: block;
+    color: #000;
+}
+.cardimgs{
+    border-radius: 50%;
+    position: absolute;
+    top: -93px;
+    right: -3px;
+}
+.cardimgson{
+    border-radius: 50%;
+    position: absolute;
+    top: -93px;
+    right: 0px;
+}
+.cardp{
+    color:black;
+    font-size: 20px;
+}
